@@ -2,7 +2,7 @@ name: Override environment variables
 on: push
 env:
   EXAMPLE: Defined by workflow level
-job:
+jobs:
   print:
     runs-on: ubuntu-latest
     steps:
